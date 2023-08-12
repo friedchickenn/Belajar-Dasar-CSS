@@ -1,0 +1,15 @@
+
+body {
+    /* property backround-color adalah untuk mengatur warna warna 
+    pada backround value:nama warna, hexadecimal, rgb */
+    background-color: yellowgreen;
+      /* property backround-image adalah untuk mengatur gambar yang
+    akan digunakan pada backround */
+    background-image:url(bg1.jpg);
+    /* property backround-position adalah untuk mengatur posisi
+    gambar pada backround value:top/center/bottom, (bisa digabung) left/center/right*/
+    background-position:center center ;
+    /* property backroud-repeat adalah untuk mengatur jenis pengulangan
+    gambar pada backround value: repeat-x, repeat-y, no-repeat */
+    background-repeat:no-repeat;
+}

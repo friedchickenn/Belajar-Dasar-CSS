@@ -1,0 +1,28 @@
+h1 {
+    /* property color adalah untuk memberi warna pada tulisan
+    value: nama warna(blue), hexadecimal (#0002aa), rgb (rgb(109, 46, 87)) */
+    color: aqua;
+}
+p {
+    /* property text-align adalah untuk mengatur format
+    paragraf/text value: left, right, center, justify */
+    text-align: justify;
+    /* property text-indent adalah untuk memberi indentasi
+    pada paragraf/text value: px, % */
+    text-indent: 10%;
+    /* property text-transform adalah untukmengubah jenis huruf
+    menjadi huruf besar, kecil/kapital value: none, lowercase, 
+    uppercase, capitalize*/
+    text-transform: capitalize;
+    /* property letter-spacing adalah untuk mengatur spasi
+    antar huruf value: normal, px */
+    letter-spacing: 10 px;
+    /* property word=spacing adalah untuk mengatur spasi
+    antar kata value: normal, px */
+    word-spacing: 20px;
+}
+a {
+     /* property text-deciration adalah untuk mengatur dekorasi
+    pada text value: none, underline, overline, line-throught */
+    text-decoration:line-through;
+}

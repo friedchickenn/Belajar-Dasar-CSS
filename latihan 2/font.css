@@ -1,0 +1,21 @@
+h1 {
+    /* property font-family adalah untuk mengatur font yang akan digunakan */
+    /* dalam property font-family kita bisa memberi lebih dari satu value */
+    font-family: arial, verdana, sans-serif;
+    /* property font-size adalah untuk mengatur ukuran font (px, %, em)  */
+    font-size: 80px;
+    /* property font-weight adalah untuk mengatur ketebaln font
+     (lighter, normal, 100-900, bold, bolder) */
+    font-weight: 600;
+    /* property font-variant adalah untuk mengubah font menjadi small caps
+    (normal, small-caps)*/
+    font-variant: small-caps;
+}
+p {
+    /* property font-style adalah untuk mengubah font menjadi bercetak miring
+    (normal, italic, obliques */
+    font-style: italic;
+    /* property line-height adalah untuk mengatur spasi antar baris
+    (normal, px, em) */
+    line-height: 20px;
+}

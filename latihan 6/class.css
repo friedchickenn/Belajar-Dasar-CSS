@@ -1,0 +1,71 @@
+/* PSEUDO CLASS YANG BERHUBUNGAN DENGAN LINK */
+/* pseudo class ":link" adalah style default sebuah link (a yang 
+memiliki href) */
+.hello:link {
+    color: lightgreen;
+}
+/* pseudo class ":hover" adalah style ketika kursor mouse
+berada diatas sebuah link/elemen */
+.hello:hover {
+    color: lightsalmon;
+    font-family: Verdana;
+    font-size: 50px;
+}
+/* pseudo class ":active" adalah style ketika sebuah link 
+di klik (keadaan aktif) */
+.hello:active {
+    font-style: italic;
+}
+/* pseoudo class ":visited" adalah style ketika sebuah link 
+sudah pernah dikunjungi sebelumnya (menggunakan browser yang ama)  */
+.hello:visited {
+    color: magenta;
+}
+
+
+
+
+
+
+
+
+/* PSEUDO CLASS YANG BERHUBUNGAN DENGAN POSISI ELEMEN (1) */
+/* pseudo class ":first-child" adalah untuk memilih elemen
+pertama atau anak pertama dari sebuah parent (elemen 
+pembungkusnya) */
+li:first-child a {
+    color: pink;
+}
+/* pseudo class ":last-child" adalah untuk memilih elemen
+pertama atau anak terakhir dari sebuah parent (elemen 
+pembungkusnya) */
+li:last-child a {
+    color: yellow;
+}
+/* pseudo class ":nth-child(n) adalah untuk memilih elemen ke-n 
+dari sebuah parent (elemen pembungkusnya), n bisa berarti urutan 
+(1), (2), ... atau pola (2n), (3n+2), (4n-1) atau ganjil dan genap
+(even) dan (odd) */
+li:nth-child(3n) a {
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+/* PSEUDO CLASS YANG BERHUBUNGAN DENGAN POSISI ELEMEN (2) */
+/* pseudo class ":first-of-type" adalah untuk memilih elemen 
+pertama dari sebuah jenis / tipe tag */
+p:first-of-type {
+    color: orchid;
+}
+
+/* pseudo class ":lastt-of-type" adalah untuk memilih elemen 
+terakhir dari sebuah jenis / tipe tag */
+p:last-of-type {
+    color: palegreen;
+}

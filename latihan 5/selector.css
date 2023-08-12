@@ -1,0 +1,30 @@
+/* contoh selector elemen HTML */
+body {
+    font-family: arial;
+}
+/* jika ingin menggabungkan elemen yang ingin diberi style bisa menggunakan "," */
+h1, h2 {
+    color: lime;
+}
+/* jika ingin memberi style elemen didalam elemen bisa menggunakan spasi " " */
+ul li a {
+    color: lightpink;
+}
+ol li a {
+    color: magenta;
+}
+/* contoh selector id menggunakan "#" */
+/* *tidak disarankan */
+#p1 {
+    color: red;
+}
+/* contoh selector class menggunakan "." */
+.p2 {
+    color: yellow;
+}
+.cetak-tebal {
+    font-weight: bold;
+}
+p.cetak-tebal {
+    font-size: 20px;
+}
